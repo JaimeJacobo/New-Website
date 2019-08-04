@@ -112,16 +112,17 @@ $('#contactModal').on('shown.bs.modal', function () {
 
 
 
-//PRUEBA TIMELINE
+// PRUEBA TIMELINE
+
+//Parece que esto es para eliminar 'active' y ponerlo en donde se hace click
 
 $(function(){
-	var inputs = $('.input');
-	var paras = $('.description-flex-container').find('p');
+	let inputs = $('.input');
+	let paras = $('.description-flex-container').find('p');
 	$(inputs).click(function(){
-		var t = $(this),
+		let t = $(this),
 				ind = t.index(),
 				matchedPara = $(paras).eq(ind);
-		
 		$(t).add(matchedPara).addClass('active');
 		$(inputs).not(t).add($(paras).not(matchedPara)).removeClass('active');
 	});
