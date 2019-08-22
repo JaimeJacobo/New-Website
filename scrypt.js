@@ -112,43 +112,4 @@ $('#contactModal').on('shown.bs.modal', function () {
 
 
 
-// PRUEBAS TIMELINE
-
-let ucmText, cabifyText, ironhackText, vodafoneText, unicefText, ufvtext;
-
-ucmText = "On September 2015 I began my degree in Psychology at the Universidad Complutense de Madrid in Spain, which I finished 4 years later.";
-
-cabifyText = "On February 2018, I did my Psychology's Human Resources' last year internship at Cabify, where I had my first experience with HTML, CSS and JS.";
-
-ironhackText = "On October2018, I travelled to Miami to do a Web Development bootcamp called Ironhack, where I learned almost the most I know about coding.";
-
-vodafoneText = "On February 2019, I travelled back to Madrid to begin my journey as a Frontend Developer at Vodafone, where I worked as a freelancer for 4 months.";
-
-unicefText = "On July 2019, I joined UNICEF as a Web Developer to keep growing and improving as a person and as a developer, as well as to help the kids in need with my work."
-
-ufvText = "On September 2019, I began a F.P. on Multiplatform Apps Development at Universidad Francisco de Vitoria to keep moving forward on my programming education."
-
-$("#logoUcm").click(()=>{
-  $(".timelineText").html(ucmText)
-})
-
-$("#logoCabify").click(()=>{
-  $(".timelineText").html(cabifyText)
-})
-
-$("#logoIronhack").click(()=>{
-  $(".timelineText").html(ironhackText)
-})
-
-$("#logoVodafone").click(()=>{
-  $(".timelineText").html(vodafoneText)
-})
-
-$("#logoUnicef").click(()=>{
-  $(".timelineText").html(unicefText)
-})
-
-$("#logoUfv").click(()=>{
-  $(".timelineText").html(ufvText)
-})
 

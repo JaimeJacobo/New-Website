@@ -364,7 +364,19 @@ body.modal-open {
   background: #355cc9;
 }
 
-.timelineContent {
+.s3 img {
+  border-radius: 400px;
+}
+
+.s3 h2 {
+  text-decoration: underline;
+}
+
+.s3 h3, .s3 p {
+  padding: 20px 1em 20px 1em;
+}
+
+.s3 .ironhackSection {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -372,45 +384,8 @@ body.modal-open {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  -webkit-box-pack: start;
-      -ms-flex-pack: start;
-          justify-content: start;
-}
-
-.timelineContent h2 {
-  padding-left: 30px;
-  padding-bottom: 60px;
-}
-
-.timelineContent .organizationsTimeline {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-}
-
-.timelineContent .organizationsTimeline img {
-  width: 6em;
-  border-radius: 200px;
-  padding: 5px;
-}
-
-.timelineContent .organizationsTimeline img:hover {
-  -webkit-transform: scale(1.1);
-          transform: scale(1.1);
-  -webkit-transition-duration: 0.5s;
-          transition-duration: 0.5s;
-}
-
-.timelineContent .timelineText {
-  font-size: 1.5rem;
-  margin: 30px;
 }
 /*# sourceMappingURL=main.css.map */
