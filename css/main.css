@@ -134,6 +134,12 @@ body.modal-open {
   margin-bottom: 2em;
 }
 
+@media only screen and (max-width: 320px) {
+  .fp-slidesNav ul {
+    margin-bottom: 10px;
+  }
+}
+
 .fp-slidesNav span {
   background: #FEFEFE !important;
 }
@@ -376,10 +382,6 @@ body.modal-open {
 
 .s3 h2, .s3 p {
   padding: 20px 1em 20px 1em;
-}
-
-.s3 p {
-  font-size: 1.4rem;
 }
 
 .s3 .timelineSection {
