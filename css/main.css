@@ -4,6 +4,10 @@ body {
   font-family: 'Karla', sans-serif;
 }
 
+body p {
+  font-size: 1.1em;
+}
+
 body.modal-open {
   overflow: hidden;
 }
@@ -366,6 +370,8 @@ body.modal-open {
 
 .s3 img {
   border-radius: 400px;
+  width: 40%;
+  max-width: 150px;
 }
 
 .s3 h2, .s3 p {
@@ -376,7 +382,7 @@ body.modal-open {
   font-size: 1.4rem;
 }
 
-.s3 .ironhackSection {
+.s3 .timelineSection {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
