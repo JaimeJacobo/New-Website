@@ -372,6 +372,10 @@ body.modal-open {
   padding: 20px 1em 20px 1em;
 }
 
+.s3 p {
+  font-size: 1.4rem;
+}
+
 .s3 .ironhackSection {
   display: -webkit-box;
   display: -ms-flexbox;
