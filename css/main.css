@@ -368,11 +368,7 @@ body.modal-open {
   border-radius: 400px;
 }
 
-.s3 h2 {
-  text-decoration: underline;
-}
-
-.s3 h3, .s3 p {
+.s3 h2, .s3 p {
   padding: 20px 1em 20px 1em;
 }
 
