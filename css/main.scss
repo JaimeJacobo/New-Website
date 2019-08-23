@@ -354,6 +354,11 @@ $accent-color: #355cc9;
 
 .s3{
 
+	& .section3Container{
+		display: flex;
+    justify-content: space-around;
+	}
+
 	& img{
 		border-radius: 400px;
 		width: 40%;

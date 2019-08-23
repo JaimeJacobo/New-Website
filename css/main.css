@@ -374,6 +374,14 @@ body.modal-open {
   background: #355cc9;
 }
 
+.s3 .section3Container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
 .s3 img {
   border-radius: 400px;
   width: 40%;

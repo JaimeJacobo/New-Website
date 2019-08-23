@@ -1,5 +1,14 @@
 
 
+// PRUEBAS TIMELINE
+
+
+if($(window).width() >= 768) {
+  $(".s3div").removeClass("slide");
+};
+
+
+
 //CREATING FULLPAGE LANDING
 new fullpage('#fullPage', {
   autoScrolling: true,
@@ -109,6 +118,7 @@ $('#contactModal').on('hidden.bs.modal', function () {
 $('#contactModal').on('shown.bs.modal', function () {
   avoidScrolling();
 })
+
 
 
 
