@@ -149,22 +149,22 @@ body.modal-open {
           box-sizing: border-box;
 }
 
+.fp-controlArrow.fp-prev {
+  left: 150px;
+}
+
+.fp-controlArrow.fp-next {
+  right: 150px;
+}
+
 #whoAmI p, #whatDoILikeToDo p, #whichTechFields p, #whereAmIGoing p {
   -ms-grid-row: 4;
   grid-row: 4;
 }
 
-.wrapper {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-flow: row wrap;
-          flex-flow: row wrap;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+#whoAmI .content, #whatDoILikeToDo .content, #whichTechFields .content, #whereAmIGoing .content {
+  max-width: 500px;
+  margin: 0 auto;
 }
 
 .card {
@@ -401,6 +401,8 @@ body.modal-open {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+  max-width: 500px;
+  margin: 0 auto;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;

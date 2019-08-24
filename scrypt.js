@@ -1,21 +1,40 @@
 
-
+977
 // PRUEBAS TIMELINE
 
+let navigationBoolean, showActiveTooltipBoolean, controlArrowsBoolean;
 
-if($(window).width() >= 768) {
+if($(window).width() > 768) {
   $(".s3div").removeClass("slide");
+  navigationBoolean = true;
+} else {
+  navigationBoolean = false;
+
 };
+
+if($(window).width() >= 1024) {
+  controlArrowsBoolean = true;
+} else {
+  controlArrowsBoolean = false;
+};
+
+if($(window).width() >= 1110) {
+  showActiveTooltipBoolean = true;
+} else {
+  showActiveTooltipBoolean = false;
+};
+
+
 
 
 
 //CREATING FULLPAGE LANDING
 new fullpage('#fullPage', {
   autoScrolling: true,
-  navigation: false,
-  navigationTooltips: ['Home', 'About Me', 'Projects', 'Skills', 'Media'],
-  showActiveTooltip: false,
-  controlArrows: false,
+  navigation: navigationBoolean,
+  navigationTooltips: ['Home', 'About Me', 'Experience', 'Skills', 'Projects'],
+  showActiveTooltip: showActiveTooltipBoolean,
+  controlArrows: controlArrowsBoolean,
   slidesNavigation: true,
   normalScrollElements: '.description'
 });

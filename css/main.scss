@@ -157,16 +157,25 @@ $accent-color: #355cc9;
 	box-sizing: border-box;
 }
 
+.fp-controlArrow{
+	&.fp-prev{
+		left: 150px;
+	}
+
+	&.fp-next{
+		right: 150px;
+	}
+} 
+
 #whoAmI, #whatDoILikeToDo, #whichTechFields, #whereAmIGoing {
   p {
     grid-row: 4;
-  }
-}
-
-.wrapper {
-	display: flex;
-	flex-flow: row wrap;
-	justify-content: center;
+	}
+	
+	& .content{
+		max-width: 500px;
+		margin: 0 auto;
+	}
 }
 
 .card {
@@ -372,7 +381,8 @@ $accent-color: #355cc9;
 
 	& .timelineSection{
 	display: flex;
-	flex-direction: column;
+	flex-direction: column;max-width: 500px;
+	margin: 0 auto;
 	align-items: center;
 	}	
 }
