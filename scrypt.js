@@ -1,5 +1,5 @@
 
-977
+
 // PRUEBAS TIMELINE
 
 let navigationBoolean, showActiveTooltipBoolean, controlArrowsBoolean;
@@ -32,7 +32,7 @@ if($(window).width() >= 1110) {
 new fullpage('#fullPage', {
   autoScrolling: true,
   navigation: navigationBoolean,
-  navigationTooltips: ['Home', 'About Me', 'Experience', 'Skills', 'Projects'],
+  navigationTooltips: ['Home', 'About Me', 'Experience', 'Projects', 'Skills'],
   showActiveTooltip: showActiveTooltipBoolean,
   controlArrows: controlArrowsBoolean,
   slidesNavigation: true,

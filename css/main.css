@@ -407,4 +407,28 @@ body.modal-open {
       -ms-flex-align: center;
           align-items: center;
 }
+
+.s4 p, .s4 img {
+  width: 100%;
+  max-width: 550px;
+}
+
+.s4 .projectsContent {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 100vh;
+  padding-left: 3em;
+  padding-right: 3em;
+}
 /*# sourceMappingURL=main.css.map */
