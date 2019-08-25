@@ -32,7 +32,7 @@ if($(window).width() >= 1110) {
 new fullpage('#fullPage', {
   autoScrolling: true,
   navigation: navigationBoolean,
-  navigationTooltips: ['Home', 'About Me', 'Experience', 'Projects', 'Skills'],
+  navigationTooltips: ['Home', 'About Me', 'Experience', 'Projects'],
   showActiveTooltip: showActiveTooltipBoolean,
   controlArrows: controlArrowsBoolean,
   slidesNavigation: true,

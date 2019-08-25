@@ -118,7 +118,7 @@ body.modal-open {
 .modal-footer{
   border-top: inherit;
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   margin-left: 1em;
   margin-right: 1em;
 }
@@ -398,8 +398,8 @@ $accent-color: #355cc9;
 	}
 
 	& img{
-		padding-bottom: 20px;
-		border-radius: 20px;
+		margin-bottom: 20px;
+		border-radius: 15px;
 	}
 
 	& h2{
