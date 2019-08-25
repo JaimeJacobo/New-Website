@@ -397,13 +397,29 @@ $accent-color: #355cc9;
     max-width: 550px;
 	}
 
+	& img{
+		margin-bottom: 20px;
+		border-radius: 20px;
+	}
+
+	& h2{
+		padding-bottom: 10px;
+	}
+
 	& .projectsContent{
 		display: flex;
     flex-direction: column;
-    justify-content: space-evenly;
+    justify-content: center;
     align-items: center;
 		height: 100vh;
 		padding-left: 3em;
-    padding-right: 3em;
+		padding-right: 3em;
+		
+		& span{
+			display: block;
+			padding-bottom: 5px;
+			font-size: 0.9em;
+			font-style: italic;
+		}
 	}
 }

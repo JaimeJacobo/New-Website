@@ -413,6 +413,15 @@ body.modal-open {
   max-width: 550px;
 }
 
+.s4 img {
+  margin-bottom: 20px;
+  border-radius: 20px;
+}
+
+.s4 h2 {
+  padding-bottom: 10px;
+}
+
 .s4 .projectsContent {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -421,14 +430,21 @@ body.modal-open {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  -webkit-box-pack: space-evenly;
-      -ms-flex-pack: space-evenly;
-          justify-content: space-evenly;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
   height: 100vh;
   padding-left: 3em;
   padding-right: 3em;
+}
+
+.s4 .projectsContent span {
+  display: block;
+  padding-bottom: 5px;
+  font-size: 0.9em;
+  font-style: italic;
 }
 /*# sourceMappingURL=main.css.map */
