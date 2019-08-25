@@ -30,6 +30,7 @@ if($(window).width() >= 1110) {
 
 //CREATING FULLPAGE LANDING
 new fullpage('#fullPage', {
+  licenseKey: '5A786069-AA65441B-90289427-BDC0675B',
   autoScrolling: true,
   navigation: navigationBoolean,
   navigationTooltips: ['Home', 'About Me', 'Experience', 'Projects'],
